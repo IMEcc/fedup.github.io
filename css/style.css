@@ -1,0 +1,377 @@
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		
+		.container {
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+		
+		.page {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		/*	background: linear-gradient(to bottom, white, gainsboro);*/
+		}
+		
+		/*pager1*/
+		
+		.pager1 {
+			background: white;
+			z-index: 6;
+		}
+		
+		.pager1 .p1t {
+			left: 15%;
+			top: 25%;
+			position: absolute;
+			font-size: 4.5rem;
+			font-family: "仿宋";
+			animation: fadeIn 2s linear both;
+			
+		}
+		.pager1 .p2t {
+			left: 48%;
+			top: 25%;
+			position: absolute;
+			font-size: 4rem;
+			color: red;
+			animation: fadeIn 1s linear both;
+			animation-delay: 1s;
+		}
+		.pager1 .p3t {
+			right: 13%;
+			top: 25%;
+			position: absolute;
+			font-size: 4.5rem;
+			font-family: "仿宋";
+			animation: fadeIn 2s linear both;
+			
+		}
+		.pager1 img{
+			position: absolute;
+			bottom: 5%;
+			left: -13%;
+			animation: fadeIn 1s linear both;
+			animation-delay: 2s;
+			
+		}
+		
+		.pager1 .fa-play,
+		.fa-pause {
+			left: 42%;
+			top: 50%;
+			font-size: 15em;
+			position: absolute;
+			color: rgb(255, 0, 0);
+			animation: fadeIn 2s linear both;
+		}
+		
+		.pager1 button {
+			background: transparent;
+			outline: 0;
+			border: 0;
+		}
+
+		
+		/*pager2*/
+		
+		.pager2 {
+			z-index: 5;
+		}
+		.pager2 .box1{
+			position: absolute;
+			top: 15%;
+			left: 5%;
+			width: 55%;
+			height: 56%;
+			border:1px solid black;
+			background: url(../img/2_bg.jpg);
+			animation: rightinto 1s linear both;
+		}
+		.pager2 .box1 img{
+			position: absolute;
+			left: 0;
+			width: 60%;
+			height: 80%;
+			animation: fadeIn 1s linear both;
+			animation-delay: 5s;
+			
+		}
+		.pager2 .box2 img{
+			position: absolute;
+			right: 0;
+			width: 60%;
+			height: 80%;
+			animation: fadeIn 1s linear both;
+			animation-delay: 6s;
+			
+		}
+		
+		.pager2 .box2{
+			position: absolute;
+			bottom: 15%;
+			right: 5%;
+			width: 55%;
+			height: 56%;
+			border:1px solid black;
+			animation: leftinto 1s linear both;
+		}
+		.pager2 .p1t{
+			position: absolute;
+			top: 28%;
+			left: 48%;
+			color: white;
+			width: 5%;
+			font-size: 3.5rem;
+			font-family: "宋体";
+			animation: fadeOut 1s linear both;
+			animation-delay: 2s;
+		}
+		.pager2 .p2t{
+			position: absolute;
+			top: 38%;
+			left: 48%;
+			color: white;
+			width: 5%;
+			font-size: 3.5rem;
+			font-family: "宋体";
+			animation: fadeIn 1s linear both;
+			animation-delay: 4s;
+		}
+		
+		
+
+		
+		/*pager3*/
+				
+		.pager3 {
+			z-index: 4;
+			
+			
+		}
+		.pager3{
+			font-size: 4rem;
+			font-family: "楷体";
+		}
+		.pager3 .p1t{
+			position: absolute;
+			top:2%;
+			left:15%;
+			animation: rightinto 1s linear both;
+		}
+		.pager3 .p2t{
+			position: absolute;
+			top:8%;
+			right: 10%;
+			animation: rightinto 1s linear both;
+		}
+		.pager3 .p3t{
+			position: absolute;
+			top:14%;
+			right: 1%;
+			animation: rightinto 1s linear both;
+		
+		}
+		
+		.pager3 img{
+			position: absolute;
+			width: 100%;
+			bottom: 10%;
+			left: %;
+		}
+
+		
+		
+	
+		/*pager4*/
+
+				
+		.pager4 {
+			z-index: 3;
+			background: url(../img/3_bg1.jpg) no-repeat  ;
+		}
+
+		.pager4 textarea{
+			position: absolute;
+			top: 12%;
+			left: 6%;
+			width: 80%;
+			height: 60%;
+			background: transparent;
+			font-size: 4rem;
+			padding: 3%;
+			animation: fadeIn 1s linear both;
+			color: white;
+			border: 1px double black;
+			
+			
+			
+		}
+		.pager4 button{
+			position: absolute;
+			bottom: 12%;
+			left: 38%;
+			width: 25%;
+			height: 8%;
+			background: transparent;
+			border-radius: 10%;
+			font-size: 3rem;
+			color: white;
+			animation: fadeIn 1s linear both;
+			animation-delay: 3s;
+		}
+		.pager4 p{
+			position: absolute;
+			left: 5%;
+			top: 2%;
+			font-size: 3.5rem;
+			font-family: "宋体";
+			animation: fadeIn 1s linear both;
+			color: white;
+		}
+		.pager4 .pager4p,
+		.pager4p1 {
+			position: absolute;
+			bottom: 28%;
+			
+		}
+		
+		.pager4p {
+			right: 21%;
+			animation: fadeIn 1s linear both;
+			
+		}
+		
+		.pager4p1 {
+			right: 8%;
+			animation: fadeIn 1s linear both;
+			animation-delay: 1s;
+		}
+		
+		
+
+
+		
+		/*pager5*/
+		.pager5 {
+			z-index: 1;
+			background: url(../img/6_p2.jpg);
+		}
+		
+		.pager5 a img {
+			width: 100%;
+			height: 500px;
+			
+			
+			position: absolute;
+			top: 50%;
+			
+			animation: rightinto 2s linear both;
+			animation-delay: 2s;
+			
+			
+		}
+		.pager5 p{
+			position: absolute;
+			left: 5%;
+			top: 33%;
+			font-size: 3.5rem;
+			font-family: "楷体";
+			animation: fadeIn 2s linear both;
+		}
+		
+		.hidden {
+			display: none;
+		}
+		/*动画*/
+		
+		@keyframes fadeIn {
+			/*透明度取值0到1*/
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+		@keyframes fadeOut {
+			/*透明度取值1到0*/
+			0% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+		
+		@keyframes topinto {
+			0% {
+				transform: translate(0px, -999px);
+			}
+			80% {
+				transform: translate(0px, 0px);
+			}
+		}
+		
+		@keyframes bottominto {
+			0% {
+				transform: translate(0px, 999px);
+			}
+			80% {
+				transform: translate(0px, 0px);
+			}
+		}
+		
+		@keyframes leftinto {
+			0% {
+				transform: translate(-999px, 0px);
+			}
+			80% {
+				transform: translate(0px, 0px);
+			}
+		}
+		
+		@keyframes rightinto {
+			0% {
+				transform: translate(999px, 0px);
+			}
+			80% {
+				transform: translate(0px, 0px);
+			}
+		}
+		/*slide*/
+		
+		.fa-angle-double-down {
+			position: absolute;
+			left: 48%;
+			bottom: 3%;
+			font-size: 5rem;
+			color: whitesmoke;
+			animation: slidedown 1.5s linear infinite;
+		}
+		
+		@keyframes slidedown {
+			0% {
+				-webkit-transform: translateY(-20px);
+				transform: translateY(-20px);
+			}
+			50% {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+			}
+			100% {
+				-webkit-transform: translateY(-20px);
+				transform: translateY(-20px);
+			}
+		}

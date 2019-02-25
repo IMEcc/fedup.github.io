@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8" />
+		<title>腻味（FedUp）</title>
+
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animation.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+
+
+	<body>
+		<div class="container">
+			<div class="page pager1">
+				<audio id="audio">
+					<source src="music/FedUp.mp3" type="audio/mp3" />
+				</audio>
+				<p class="p1t">腻味</p>
+				<p class="p2t">X</p>
+				<p class="p3t">金玟岐</p>
+				<!--播放/暂停切换按钮-->
+				<button id="play-pause" title="播放" onclick="togglePlayPause()">
+					<i class="fa fa-play fa-3x "></i>
+				</button>
+				<img src="img/1_logo.png"/>
+
+				<i class="fa fa-angle-double-down"></i>
+			</div>
+
+			<div class="page pager2 hidden">
+				<div class="box1"><img src="img/2_p2.png"/></div>
+				<p class="p1t">你喜欢你现在的生活吗<br />？</p>
+				<p class="p2t">喜欢或讨厌</p>
+				<div class="box2"><img src="img/2_p1.png"/></div>
+				<i class="fa fa-angle-double-down"></i>
+			</div>
+			
+			<div class="page pager3 hidden">
+				<img src="img/3_bg.jpg"/>
+				<p class="p1t">那追着公车的少年,</p>
+				<p class="p2t">	如今西装笔挺体面。</p>
+				<p class="p3t">——《腻味》</p>
+				
+				
+				<i class="fa fa-angle-double-down"></i>
+			</div>
+
+			<div class="page pager4 hidden">
+				<p>写下自己期待的生活<br />
+				无论好与坏，放在这里，去未来取！</p>
+				
+				<textarea  id="textare" ></textarea>
+				<button id="btn" onclick="btnc()">发送</button>
+				<img src="img/3_p.png" class="pager4p" />
+				<img src="img/3_p1.png" class="pager4p1" />
+				<i class="fa fa-angle-double-down"></i>
+			</div>
+
+
+
+
+
+			<div class="page pager5 hidden">
+				<p>全世界上最孤独的人都去写乐评了:</p>
+				<a href="https://music.163.com/#/song?id=513357062"><img src="img/6_p1.gif" /></a>
+				
+				
+			
+			</div>
+
+			<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+
+	</body>
+
+</html>

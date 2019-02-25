@@ -1,0 +1,36 @@
+.toTop{
+	/*动画;动画名称 执行所需时间 执行速度（变速）曲线 动画执行前后是否接受其他动画效果*/
+	animation: toTop 0.3s linear;
+}
+@keyframes toTop{
+	/*向Y滑*/
+	0%{}
+	100%{transform: translateY(-100%);}/*当前页面浏览器*/
+}
+
+.nextTop{
+	/*下面向上滑*/
+	animation:nextTop 0.3s linear both;
+}
+
+@keyframes nextTop{
+	0%{transform: translateY(100%);}
+	100%{transform: translateY(0);}
+}
+/*当前页面向上*/
+.toBot{
+	animation:toBot 0.3s linear both;
+}
+
+@keyframes toBot{
+	0%{}
+	100%{transform: translateY(100%);}
+}
+/*下页往上页*/
+.prevBot{
+	animation: prevBot 0.3s linear both;
+}
+@keyframes  prevBot{
+	0%{transform: translateY(-100%);}
+	100%{transform: translateY(0%);}
+}
